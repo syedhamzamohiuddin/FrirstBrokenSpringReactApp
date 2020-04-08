@@ -21,7 +21,7 @@ import io.javabrains.springsecurity.jwt.services.MyUserDetailsService;
 public class SecurityConfigurer extends WebSecurityConfigurerAdapter{
 
 	@Autowired
-	private MyUserDetailsService myUserDetailsService;
+	private MyUserDetailsService  myUserDetailsService;
 	
 	@Autowired
 	private Filter jwtRequestFilter;
