@@ -1,0 +1,54 @@
+.about{
+		background-color:#d3d7cf;
+		text-align:center;
+		padding-bottom: 2rem;
+	
+}
+
+
+.services img {
+	display:block;
+	width:100%;
+	height: 240px;
+	background-color: #FF6200;
+	
+}
+
+.services {
+	
+	display:grid;
+	grid-template-columns:1fr repeat(2,minmax(auto,25em)) 1fr;
+	padding: .8rem 1rem 1rem;
+	
+}
+.services ul {
+	grid-column:2/4;
+	list-style: none;
+	margin:0;
+	padding:0;
+	display: flex;
+	justify-content: space-around;
+}
+.services li {
+	margin-bottom: 1em;
+	background: #fff;
+	color:#333;
+}
+
+.card-content {
+	padding: 1.5em;
+
+}
+	
+	.services li {
+	 width: 23%;
+}
+
+.about h1{
+	padding:1.5rem 0px;
+	color:#333;
+	
+}
+
+
+
